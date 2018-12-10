@@ -1,0 +1,57 @@
+// ==========================================================================
+// Nav
+// ==========================================================================
+
+.nav {
+	margin-top: em(20px);
+  margin-bottom: em(30px);
+  padding: 0;
+  @include e(item) {
+    @extend %nav-item-horz;
+    a {
+      @extend %nav-item-link;
+      color: palette(grey);
+      &:hover {
+        @extend %nav-item-on;
+      }
+    }
+    @include m(current) {
+      @extend %nav-item-horz;
+      a {
+        @extend %nav-item-link;
+        @extend %nav-item-on;
+      }    
+    }
+  }
+  &__item {
+    list-style-type: none;
+  & a{
+    margin: 0 auto 10px 0;
+    border-radius: 5px;
+    text-decoration: none;
+
+    &:visited{
+      background-color: $color-primary;
+    }
+  }
+  }
+  @include mq(large){
+    margin-top: em(63px);
+  }
+}
+
+
+//Link
+.link{
+  text-decoration: none;
+  color: $color-default;
+  font-weight: $font-weight--medium;
+}
+
+
+
+
+
+
+
+

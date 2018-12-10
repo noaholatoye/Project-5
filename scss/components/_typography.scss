@@ -1,0 +1,33 @@
+// ==========================================================================
+// Typography
+// ==========================================================================
+
+// nav description
+.card {
+	margin: 50px 0 em(30px, 18px);
+	font-weight: $font-weight--light;
+	font-size: em(20px);
+	line-height: (27px/18px);
+	text-align: left;
+	text-decoration: none;
+
+	@include mq(large){
+		width: 80%;
+	}
+}
+
+//blockquote
+.blockquote {
+	border-left: em(8px, 24px) solid $color-primary;
+	border-radius: $br--default;
+	margin: em(32px, 24px) 0;
+	padding: 0 0 0 5%;
+	@media (min-width: 769px) {
+		margin: em(32px, 24px) 0;
+		padding: 0 0 0 5%;
+		font-size: em(20px);
+	}
+	font-weight: $font-weight--medium;
+	font-style : italic;
+	font-size : em(25px);
+}

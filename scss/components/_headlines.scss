@@ -1,0 +1,22 @@
+// ==========================================================================
+// Headlines
+// ==========================================================================
+
+
+
+.headline {
+	&--primary{
+		margin-bottom: em(10px, 14px);
+		color: $color-primary;
+		letter-spacing: $letter-space;
+		font-weight: $font-weight--bold;
+		font-size: em(25px);
+	
+	}
+	&--secondary{
+		font-weight: $font-weight--light;
+		margin: em(50px) 0 em(30px) 0;
+		text-align: left;
+		font-size: em(20px);
+	}
+}

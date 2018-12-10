@@ -1,0 +1,53 @@
+// ==========================================================================
+// Variables
+// 
+
+// Colors
+$white                    :   #fff;
+$viking                   :   #58E1C1;
+$malibu                   :   #51DDFC;
+$emerald                  :   #63CC82;
+$sunglo                   :   #E4757A;
+$coral                    :   #FD7856;
+$purple-mountain-majesty  :   #927BC1;
+$french-lilac             :   #DEB2EE;
+$anakiwa                  :   #7EE6FD;
+$vista-blue               :   #88D9A0;
+$shakespeare              :   #3FABCA;
+$seapink                  :   #EC9FA3;
+$vivid-tangerine          :   #FD9F85;
+$riptide                  :   #80E8D1;
+
+
+
+// Functional color variables 
+$color-primary          :   $viking;
+$color-primary-light    :   lighten($color-primary, 10%);
+$color-default          :   $malibu;
+$color-success          :   $emerald;
+$color-error            :   $sunglo;
+$color-warning          :   $coral;
+$color-info             :   $purple-mountain-majesty;
+$colorc-col-3           :   $french-lilac;
+$colorc-col-4           :   $anakiwa;
+$colorc-col-5           :   $vista-blue;
+$colorc-col-6           :   $shakespeare;
+$colorc-col-7           :   $seapink;
+$colorc-col-8           :   $vivid-tangerine;
+$colorc-col-12          :   $riptide;
+
+// Fonts
+$font-stack-primary: 'Raleway', sans-serif;
+$font-stack-secondary: 'Bree Serif', serif;
+
+// Layout
+$max-width: 1000px;
+$gutter: 10px;
+
+// Breakpoints
+$breakpoints: (
+  'xs': 575px, 
+  'sm': 576px,
+ 'med': 768px,
+  'lg': 992px,  
+);

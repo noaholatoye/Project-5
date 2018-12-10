@@ -1,0 +1,21 @@
+// ==========================================================================
+// Images
+// ==========================================================================
+
+.img {
+  &--logo {
+    margin: 50px 0;
+  }
+
+  &--avatar{
+    margin-bottom: em(50px);
+    width: em(150px);
+  }
+
+  &--frame{
+    width: em(350px);
+    padding: em(10px);
+    border: 1px solid $grey;
+    margin-bottom: em(50px);
+  }
+}
